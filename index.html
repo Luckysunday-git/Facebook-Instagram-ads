@@ -31,6 +31,12 @@
         margin: auto;
       }
 
+      .heading {
+        margin-top: -10px;
+        color: #1877f2;
+        text-decoration: underline;
+      }
+
       h1 {
         font-size: 2.5rem;
         margin-bottom: 10px;
@@ -60,20 +66,29 @@
         color: #444;
         margin-bottom: 25px;
         font-weight: bold;
+        line-height: 1.5;
+      }
+
+      .info {
+        margin-bottom: 25px;
+        color: green;
+        font-weight: bold;
+        font-size: larger;
       }
 
       .buttons {
         display: flex;
         flex-direction: column;
         gap: 15px;
+        margin-top: 16px;
         margin-bottom: 20px;
       }
 
       .btn {
-        border: 4px solid black;
+        border: 7px solid black;
         padding: 18px 25px;
         font-size: 25px;
-        line-height: 1.4;
+        line-height: 1.5;
         font-weight: 700;
         border-radius: 8px;
         text-decoration: none;
@@ -86,7 +101,7 @@
       }
 
       .sales {
-        background: #111;
+        background: green;
         color: white;
       }
 
@@ -109,13 +124,6 @@
       .container p {
         font-weight: bold;
       }
-      /* 
-      .gallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 15px;
-        margin-top: 20px;
-      } */
 
       img {
         max-width: 100%;
@@ -125,7 +133,7 @@
       .gallery {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-        gap: 15px;
+        gap: 40px;
         margin-top: 20px;
       }
 
@@ -194,6 +202,7 @@
 
   <body>
     <div class="container">
+      <h1 class="heading">DIGITAL MARKETING</h1>
       <h1>
         <span class="facebook">Facebook</span> +
         <span class="instagram">Instagram</span>
@@ -203,24 +212,31 @@
       <p class="hook">
         Join me to discover for
         <span style="color: red; font-weight: bold">FREE </span>the current and
-        best strategies businesses are SECRETELY using to turn
+        best Advertising strategies many business owners are SECRETELY using on
         <span class="facebook">Facebook</span> and
-        <span class="instagram">Instagram</span> ads into massive daily sales.
+        <span class="instagram">Instagram</span> to make massive daily sales.
       </p>
+      <small class="info"
+        >For more info, please click the button below to join the waiting
+        group.</small
+      >
 
       <div class="buttons">
         <a href="join-whatsapp.html" class="btn join">
-          CLICK HERE TO JOIN THE TRAINING NOW
+          CLICK HERE TO JOIN THE WAITING GROUP
         </a>
 
         <p class="social-proof">
-          Hundreds of great entrepreneurs are already inside. Join them and
-          learn how to turn <span class="facebook">Facebook</span> and
-          <span class="instagram">Instagram</span> into a powerful sales funnel.
+          Thousands of great entrepreneurs and business owners are already
+          inside. Join them and learn how to use
+          <span class="facebook">Facebook</span> and
+          <span class="instagram">Instagram</span> ads to make massive daily
+          sales.
         </p>
 
         <a href="join-whatsapp.html" class="btn sales">
-          YOU WANT MASSIVE SALES? CLICK HERE TO JOIN THE CLASS NOW
+          IF YOU WANT TO MAKE MASSIVE DAILY SALES? <br /><br />
+          CLICK HERE TO JOIN THE GROUP
         </a>
       </div>
 
